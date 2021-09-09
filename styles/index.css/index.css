@@ -1,0 +1,66 @@
+/*Colors*/
+/*Resets*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1500px;
+  margin: 0% auto;
+}
+
+/* calibre fonts  */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/fonts/calibre_font/CalibreThin.otf);
+}
+
+/* gtAlpina fonts  */
+@font-face {
+  font-family: gtAlpinaBold;
+  src: url(/fonts/gtAlpina_font/GTAlpinaBold.ttf);
+}
+
+h1 {
+  font-family: calibreRegular;
+  color: #41436a;
+}
+/*# sourceMappingURL=index.css.map */

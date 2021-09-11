@@ -1,7 +1,65 @@
 @import "../scssfiles/variables.css/variables";
 @import "../scssfiles/font.css/font";
-
-h1{
-    font-family: calibreRegular;
-    color: $primay-two;
+@import "../scssfiles/Header/header";
+/* gtAlpina fonts  */
+@font-face {
+  font-family: gtAlpinaBold;
+  src: url(/fonts/gtAlpina_font/GTAlpinaBold.ttf);
 }
+
+/*hero starts*/
+.hero_sec {
+  width: 100%;
+  height: 85vh;
+  background-color: $primay-two;
+
+  .container {
+    width: 1200px;
+    height: inherit;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+
+    .left_sec {
+      margin-top: 104px;
+      h1 {
+        color: $primary-one;
+        max-width: 575px;
+        max-height: 363px;
+        font-size: 93px;
+        line-height: 105px;
+        font-family: gtAlpinaBold;
+      }
+      .btn {
+        margin-top: 28px;
+        width: 255px;
+        background-color: $secondary-one;
+        color: $primary-one;
+        padding: 15px 40px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        img {
+          margin-bottom: 3px;
+          height: 19px;
+          width: 19px;
+        }
+      }
+    }
+    .right_sec {
+      margin-top: 94px;
+      position: absolute;
+      left: 860px;
+
+      img {
+        width: 744px;
+        height: 540px;
+      }
+    }
+  }
+}
+/*hero ends*/
+
+/*Our teacher sec starts*/
+/*Our teacher sec ends*/

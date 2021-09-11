@@ -62,4 +62,64 @@
 /*hero ends*/
 
 /*Our teacher sec starts*/
+.our-teacher-sec {
+  width: 100%;
+  height: 556px;
+  background-color: $secondary-one;
+
+  .container {
+    width: 1200px;
+    height: inherit;
+    margin: 0% auto;
+
+    .card-wrapper {
+      padding-top: 134px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-row: 1fr;
+      grid-gap: 0 51px;
+
+      .card {
+        border-radius: 25px;
+        text-align: center;
+        height: 288px;
+        width: 262px;
+        left: 746px;
+        top: 134px;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        img{
+          width: 65px;
+          height: 65px;
+        }
+      }
+      .card.white{
+        background-color: $primary-one;
+
+        h1{color: $primay-two;}
+        h3{color: $secondary-two;}
+
+        .special-img-one{
+          width: 100px;
+          height: 100px;
+        }
+      }
+      .card.blue{
+        background-color: $primay-two;
+
+        h1{color: $primary-one;}
+        h3{color: $secondary-one;}
+
+        .special-img-two{
+          width: 55px;
+          height: 55px;
+        }
+      }
+    }
+  }
+}
 /*Our teacher sec ends*/

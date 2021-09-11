@@ -53,6 +53,10 @@ li {
   list-style: none;
 }
 
+h1 {
+  font-family: calibreBlack;
+}
+
 a {
   text-decoration: none;
   font-family: calibreBold;
@@ -247,5 +251,90 @@ img {
 
 /*hero ends*/
 /*Our teacher sec starts*/
+.our-teacher-sec {
+  width: 100%;
+  height: 556px;
+  background-color: #fe9677;
+}
+
+.our-teacher-sec .container {
+  width: 1200px;
+  height: inherit;
+  margin: 0% auto;
+}
+
+.our-teacher-sec .container .card-wrapper {
+  padding-top: 134px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-row: 1;
+  grid-row: 1fr;
+  grid-gap: 0 51px;
+}
+
+.our-teacher-sec .container .card-wrapper .card {
+  border-radius: 25px;
+  text-align: center;
+  height: 288px;
+  width: 262px;
+  left: 746px;
+  top: 134px;
+  border-radius: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.our-teacher-sec .container .card-wrapper .card img {
+  width: 65px;
+  height: 65px;
+}
+
+.our-teacher-sec .container .card-wrapper .card.white {
+  background-color: #fff;
+}
+
+.our-teacher-sec .container .card-wrapper .card.white h1 {
+  color: #41436a;
+}
+
+.our-teacher-sec .container .card-wrapper .card.white h3 {
+  color: #984063;
+}
+
+.our-teacher-sec .container .card-wrapper .card.white .special-img-one {
+  width: 100px;
+  height: 100px;
+}
+
+.our-teacher-sec .container .card-wrapper .card.blue {
+  background-color: #41436a;
+}
+
+.our-teacher-sec .container .card-wrapper .card.blue h1 {
+  color: #fff;
+}
+
+.our-teacher-sec .container .card-wrapper .card.blue h3 {
+  color: #fe9677;
+}
+
+.our-teacher-sec .container .card-wrapper .card.blue .special-img-two {
+  width: 55px;
+  height: 55px;
+}
+
 /*Our teacher sec ends*/
 /*# sourceMappingURL=index.css.map */

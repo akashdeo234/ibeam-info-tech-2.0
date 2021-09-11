@@ -299,7 +299,7 @@ img {
 
 .our-teacher-sec .container .card-wrapper .card img {
   width: 65px;
-  height: 65px;
+  height: 95px;
 }
 
 .our-teacher-sec .container .card-wrapper .card.white {
@@ -314,11 +314,6 @@ img {
   color: #984063;
 }
 
-.our-teacher-sec .container .card-wrapper .card.white .special-img-one {
-  width: 100px;
-  height: 100px;
-}
-
 .our-teacher-sec .container .card-wrapper .card.blue {
   background-color: #41436a;
 }
@@ -329,11 +324,6 @@ img {
 
 .our-teacher-sec .container .card-wrapper .card.blue h3 {
   color: #fe9677;
-}
-
-.our-teacher-sec .container .card-wrapper .card.blue .special-img-two {
-  width: 55px;
-  height: 55px;
 }
 
 /*Our teacher sec ends*/

@@ -94,7 +94,7 @@
         
         img{
           width: 65px;
-          height: 65px;
+          height: 95px;
         }
       }
       .card.white{
@@ -102,11 +102,6 @@
 
         h1{color: $primay-two;}
         h3{color: $secondary-two;}
-
-        .special-img-one{
-          width: 100px;
-          height: 100px;
-        }
       }
       .card.blue{
         background-color: $primay-two;
@@ -114,10 +109,6 @@
         h1{color: $primary-one;}
         h3{color: $secondary-one;}
 
-        .special-img-two{
-          width: 55px;
-          height: 55px;
-        }
       }
     }
   }

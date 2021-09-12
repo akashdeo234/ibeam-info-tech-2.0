@@ -49,6 +49,10 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  overflow-x: hidden;
+}
+
 li {
   list-style: none;
 }
@@ -61,6 +65,10 @@ a {
   text-decoration: none;
   font-family: calibreBold;
   cursor: pointer;
+}
+
+h2 {
+  font-family: calibreBold;
 }
 
 h3 {
@@ -327,4 +335,134 @@ img {
 }
 
 /*Our teacher sec ends*/
+/*Why choose sec starts*/
+.why-choose-sec {
+  width: 100%;
+  height: 1150px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.why-choose-sec .container {
+  height: inherit;
+  width: 1367px;
+  margin: 104px auto 0;
+}
+
+.why-choose-sec .container .title {
+  text-align: center;
+  font-size: 55px;
+  position: relative;
+  margin-bottom: 137px;
+  padding-bottom: 32px;
+}
+
+.why-choose-sec .container .title::after {
+  content: "";
+  background: #fe9677;
+  width: 180px;
+  height: 4px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+}
+
+.why-choose-sec .container img {
+  width: 105px;
+  height: 105px;
+  margin-left: 45px;
+}
+
+.why-choose-sec .container .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 53px;
+}
+
+.why-choose-sec .container .card-wrapper .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 800px;
+  height: 200px;
+  border-radius: 23px;
+  background-color: #fe9677;
+}
+
+.why-choose-sec .container .card-wrapper .card .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.why-choose-sec .container .card-wrapper .card .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.why-choose-sec .container .card-wrapper .card .right h4 {
+  max-width: 437px;
+  font-size: 20px;
+}
+
+.why-choose-sec .container .card-wrapper .card .right a {
+  color: #fff;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+  -webkit-transform: translateY(45px);
+          transform: translateY(45px);
+  font-weight: 100;
+}
+
+.why-choose-sec .container .card-wrapper .card .right a span {
+  font-size: 20px;
+}
+
+.why-choose-sec .container .card-wrapper .card .right a img {
+  width: 22px;
+  height: 22px;
+  -webkit-transform: translateX(-33px);
+          transform: translateX(-33px);
+  margin-bottom: 5px;
+}
+
+.why-choose-sec .container .card-wrapper .card:nth-child(2) {
+  margin-left: auto;
+}
+
+/*Why choose sec ends*/
 /*# sourceMappingURL=index.css.map */

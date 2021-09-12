@@ -19,6 +19,9 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+section{
+  overflow-x: hidden;
+}
 li{
   list-style: none;
 }
@@ -29,6 +32,9 @@ a{
   text-decoration: none;
   font-family: calibreBold;
   cursor: pointer;
+}
+h2{
+  font-family: calibreBold;
 }
 h3{
   font-family: calibreSemiBold;

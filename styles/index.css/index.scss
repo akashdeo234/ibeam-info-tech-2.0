@@ -1,6 +1,7 @@
 @import "../scssfiles/variables.css/variables";
 @import "../scssfiles/font.css/font";
 @import "../scssfiles/Header/header";
+@import "../scssfiles/footer/footer";
 /* gtAlpina fonts  */
 @font-face {
   font-family: gtAlpinaBold;
@@ -437,13 +438,14 @@
             top: -27%;
           }
           .text-wrapper {
+            text-align: start;
             width: inherit;
             margin: 0% auto;
             position: absolute;
             bottom: 10%;
-            p{
-              font-size: 20px;
-              margin-bottom: 26px;
+            p {
+              font-size: 18px;
+              margin-bottom: 15px;
             }
             .text-bottom {
               display: flex;
@@ -454,11 +456,12 @@
                 width: 69px;
                 height: 27px;
               }
-              .name-wrapper{
-                h4{
+              .name-wrapper {
+                text-align: start;
+                h4 {
                   font-size: 26px;
                 }
-                p{
+                p {
                   font-size: 15px;
                 }
               }
@@ -466,12 +469,12 @@
           }
         }
       }
-      .card.two{
+      .card.two {
         position: absolute;
         top: 32%;
         right: 40%;
       }
-      .card.three{
+      .card.three {
         position: absolute;
         top: 58%;
         left: 50%;
@@ -480,3 +483,4 @@
   }
 }
 /*Testmonial sec ends*/
+

@@ -216,7 +216,7 @@
 /*Why choose sec ends*/
 
 /*Our affliation sec starts*/
-.our-affliations-sec{
+.our-affliations-sec {
   width: 100%;
   height: 590px;
   overflow: hidden;
@@ -227,7 +227,6 @@
     width: 1367px;
     margin: 104px auto 0;
     position: relative;
-   
 
     .title {
       text-align: center;
@@ -246,7 +245,7 @@
       transform: translateX(-50%);
       bottom: 0;
     }
-    img{
+    img {
       width: 1200px;
       height: 197px;
       border-radius: 26px;
@@ -255,6 +254,133 @@
       left: 50%;
       opacity: 0.9;
     }
-}
+  }
 }
 /*Our affliation sec ends*/
+/*top-students-choice-sec starts*/
+.top-students-choice-sec {
+  width: 100%;
+  height: 200vh;
+  background-color: $secondary-two;
+  overflow: hidden;
+
+  .container {
+    height: inherit;
+    width: 1367px;
+    margin: 0 auto;
+    padding-top: 104px;
+
+    .title {
+      color: $primary-one;
+      text-align: center;
+      font-size: 45px;
+      position: relative;
+      margin-bottom: 100px;
+      padding-bottom: 32px;
+    }
+    .title::after {
+      content: "";
+      background: $primary-one;
+      width: 180px;
+      height: 4px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+    }
+    .card-wrapper {
+      width: 1200px;
+      height: 1225px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-gap: 0 100px 90px 0;
+      position: relative;
+
+      .card {
+        width: 530px;
+        height: 547px;
+        background-color: $primary-one;
+        display: flex;
+        flex-direction: column;
+        border-radius: 26px;
+       
+
+        .stars {
+          width: 108.75px;
+          height: 18px;
+        }
+        .arrow {
+          width: 13px;
+          height: 13px;
+        }
+
+        .top {
+          width: 530px;
+          height: 281px;
+         
+
+          img {
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+            border-radius: 26px;
+          }
+        }
+        .bottom {
+          width: 500px;
+          margin: 0% auto;
+          height: 286px;
+          padding-top: 45px;
+          .title {
+            position: relative;
+            color: $a-tag-color;
+            text-align: start;
+            max-width: 300px;
+            font-size: 20px;
+            height: 60px;
+          }
+          .title::after {
+            content: "";
+            background: $a-tag-color;
+            width: 160%;
+            height: 4px;
+            position: absolute;
+            left: 80%;
+            transform: translateX(-50%);
+            bottom: -10%;
+          }
+          .bt-group{
+            width: 95%;
+            margin: 0% auto;
+            transform: translateY(-30px);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+          .btn {
+            background-color: $complent-color;
+            color: $primary-one;
+            padding: 12px 26.88px;
+            font-size: 13px;
+            display: flex;
+            border-radius: 8px;
+
+            span{
+              margin: 0 10px;
+            }
+          }
+        }
+        
+      }
+      .card.card-center{
+        position: absolute;
+        top: 50%;
+        left: 49%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
+/*top-students-choice-sec ends*/

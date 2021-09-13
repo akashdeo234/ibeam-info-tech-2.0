@@ -163,14 +163,20 @@ img {
 
 .header .container .nav_group a li {
   color: black;
-  opacity: 0.7;
+  opacity: 1;
   margin: 0 39px;
   font-size: 20px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .header .container .nav_group a li.active {
-  color: black;
+  color: #ed1b43;
   opacity: 1;
+}
+
+.header .container .nav_group a li:hover {
+  color: #ed1b43;
 }
 
 .header .container a.btn {
@@ -184,6 +190,96 @@ img {
 }
 
 /*Header ends*/
+/* calibre fonts  */
+@font-face {
+  font-family: calibreBlack;
+  src: url(/fonts/calibre_font/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: calibreBold;
+  src: url(/fonts/calibre_font/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: calibreSemiBold;
+  src: url(/fonts/calibre_font/CalibreSemibold.otf);
+}
+
+@font-face {
+  font-family: calibreMedium;
+  src: url(/fonts/calibre_font/CalibreMedium.otf);
+}
+
+@font-face {
+  font-family: calibreRegular;
+  src: url(/fonts/calibre_font/CalibreRegular.otf);
+}
+
+@font-face {
+  font-family: calibreLight;
+  src: url(/fonts/calibre_font/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: calibreThin;
+  src: url(/fonts/calibre_font/CalibreThin.otf);
+}
+
+/*Colors*/
+/*Resets*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: calibreBlack;
+}
+
+a {
+  text-decoration: none;
+  font-family: calibreBold;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: calibreBold;
+}
+
+h3 {
+  font-family: calibreSemiBold;
+}
+
+h4 {
+  font-family: calibreMedium;
+}
+
+p {
+  font-family: calibreLight;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
 /*footer starts*/
 footer {
   width: 100%;
@@ -223,14 +319,20 @@ footer .container .nav_group {
 
 footer .container .nav_group a li {
   color: black;
-  opacity: 0.7;
+  opacity: 1;
   margin: 0 39px;
   font-size: 20px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 footer .container .nav_group a li.active {
-  color: black;
+  color: #ed1b43;
   opacity: 1;
+}
+
+footer .container .nav_group a li:hover {
+  color: #ed1b43;
 }
 
 footer .container a.btn {

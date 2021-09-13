@@ -1,3 +1,4 @@
+@import "../variables.css/variables";
 /*footer starts*/
 footer {
     width: 100%;
@@ -24,13 +25,17 @@ footer {
   
         a li {
           color: $a-tag-color;
-          opacity: 0.7;
+          opacity: 1;
           margin: 0 39px;
           font-size: 20px;
+          transition: 0.3s ease;
         }
         a li.active {
-          color: $a-tag-color;
+          color: $complent-color;
           opacity: 1;
+        }
+        a li:hover{
+          color: $complent-color;
         }
       }
       a.btn {

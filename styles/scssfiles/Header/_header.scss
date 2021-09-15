@@ -1,3 +1,4 @@
+@import "../variables/variables";
 /*Header starts*/
 .header {
     width: 100%;
@@ -44,6 +45,13 @@
         padding: 14px 35px 12px;
         border-radius: 10px;
         outline: none;
+        transition: 0.3s ease-in-out;
+      }
+      a.btn.active{
+        background-color: $complent-color;
+      }
+      a.btn:hover{
+        background-color: $complent-color;
       }
     }
   }

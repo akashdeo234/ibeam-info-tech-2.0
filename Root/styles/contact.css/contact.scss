@@ -73,14 +73,18 @@
               padding: 10px 0 230px 17px;
             }
           }
-        }
-        a.btn {
-          width: 208px;
-          height: 52px;
-          padding: 20px 40px;
-          color: $primary-one;
-          background-color: $complent-color;
-          border-radius: 65px;
+          .btn {
+            cursor: pointer;
+            border: none;
+            outline: none;
+            font-weight: bold;
+            width: 208px;
+            height: 52px;
+            padding: 20px 40px;
+            color: $primary-one;
+            background-color: $complent-color;
+            border-radius: 65px;
+          }
         }
       }
       .right {

@@ -30,21 +30,23 @@
           <div class="left">
             <h2>Get Intouch</h2>
             <p>Have a question or just want to say hi? We'd love to hear from you.</p>
-            <form action="subit">
+            <form action="https://formsubmit.co/ies.education3@gmail.com" method="POST">
+              <input type="hidden" name="_subject" value="New submission!">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5501/thanks.html">
               <div class="first">
-                <input type="text" class="f-name" placeholder="Enter your name">
-                <input type="email" class="email" placeholder="Enter your email">
+                <input type="text"  name="name" class="f-name" placeholder="Enter your name" required>
+                <input type="email"  name="email" class="email" placeholder="Enter your email" required>
               </div>
               <div class="second">
-                <input type="text" class="subject" placeholder="Enter your course that you want to learn">
+                <input type="text"  name="subject" class="subject" placeholder="Enter your course that you want to learn" required>
               </div>
               <div class="third">
-                <input type="text" placeholder="Additional details">
+                <input type="text"  name="Additional details" placeholder="Additional details" required>
               </div>
+              <button class="btn" type="submit">
+                Send your message
+              </button>
             </form>
-            <a href="#" class="btn">
-              Send your message
-            </a>
           </div>
           <div class="right">
             <div class="card one">

@@ -556,7 +556,11 @@ footer .container .social-group a img:hover {
   padding: 10px 0 230px 17px;
 }
 
-.contact-us-sec .container .flew-wrapper .left a.btn {
+.contact-us-sec .container .flew-wrapper .left form .btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: bold;
   width: 208px;
   height: 52px;
   padding: 20px 40px;
